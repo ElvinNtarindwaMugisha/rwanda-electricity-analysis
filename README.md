@@ -72,6 +72,6 @@ This will print a summary table to the terminal and save a chart image (`rwanda_
  
 ## About
  
-Built as part of a personal data analytics portfolio. This project demonstrates skills in data collection, cleaning, transformation, exploratory analysis, visualisation, and reporting using real-world public datasets.
+This project collected electrification data from the World Bank SDG 7.1.1 dataset, Rwanda Energy Group (REG), and IEA country reports, then cleaned and structured it in Python using pandas. The analysis computed year-on-year percentage point changes, a 5-year CAGR, and tracked the urban–rural access gap across four reference years. A 3-panel matplotlib figure was generated covering the national trend, urban vs rural comparison, and annual growth rates. The findings were compiled into a structured PDF report using ReportLab, and an interactive HTML dashboard was built with Chart.js featuring four live charts, a data table, and a policy milestones timeline — all sourced from real official data.
  
 
